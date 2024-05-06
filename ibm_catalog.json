@@ -54,7 +54,7 @@
 							{
 								"diagram": {
 									"url_proxy": {
-										"url": "https://github.com/RnD-sandbox/stack-demo/main/architecture/catalog-logo-sap-on-powervs.svg",
+										"url": "https://github.com/RnD-sandbox/stack-demo/blob/main/architecture/catalog-logo-sap-on-powervs.svg",
 										"sha": "b9213201e6099c0237d83c0cc0d6931dfb5341b8be9b7692f1f0eaf0e9a089d5"
 									},
 									"caption": "Baby SLZ variation",
