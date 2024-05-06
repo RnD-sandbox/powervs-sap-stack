@@ -53,10 +53,7 @@
 						"diagrams": [
 							{
 								"diagram": {
-									"url_proxy": {
-										"url": "https://github.com/RnD-sandbox/stack-demo/blob/main/architecture/catalog-logo-sap-on-powervs.svg",
-										"sha": "d1c24424d7d5b68fbb2f7a4f2d5c1192c60fc4b4"
-									},
+                                    "url": "https://github.com/RnD-sandbox/stack-demo/blob/main/architecture/catalog-logo-sap-on-powervs.svg",
 									"caption": "PowerVS for SAP HANA",
 									"type": "image/svg+xml"
 								},
