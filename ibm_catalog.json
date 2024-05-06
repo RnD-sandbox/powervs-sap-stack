@@ -1,0 +1,97 @@
+{
+	"products": [
+		{
+			"label": "fullstack powervs sap",
+			"name": "fullstack-powervs-sap",
+			"version": "0.0.1",
+			"product_kind": "solution",
+			"tags": [
+                "virtualservers",
+                "ibm_created",
+                "target_terraform",
+                "terraform",
+                "reference_architecture",
+                "solution",
+                "support_ibm"
+            ],
+			"offering_icon_url": "https://globalcatalog.test.cloud.ibm.com/api/v1/1082e7d2-5e2f-0a11-a3bc-f88a8e1931fc/artifacts/solution.svg",
+			"flavors": [
+				{
+					"licenses": [
+						{
+							"id": "ibm",
+							"name": "IBM",
+							"url": "https://www.ibm.com/about/software-licensing/us-en/licensing/basics"
+						}
+					],
+					"compliance": {
+						"authority": "scc-v3",
+						"controls": [
+							{
+								"profile": {
+									"id": "",
+									"name": "IBM Cloud for Financial Services",
+									"version": "1.4.0"
+								},
+								"names": [
+									"IA-3(0)"
+								]
+							}
+						]
+					},
+					"architecture": {
+						"features": [
+							{
+								"title": "Power Virtual Server with VPC landing zone",
+								"description": "Available"
+							},
+							{
+								"title": "PowerVS instances",
+								"description": "SAP HANA Instance: 1\n\nSAP NetWeaver Instances: 0,1..N\n\nShared SAP Instance: 0 or 1"
+							}
+						],
+						"diagrams": [
+							{
+								"diagram": {
+									"url_proxy": {
+										"url": "https://github.com/RnD-sandbox/stack-demo/main/architecture/catalog-logo-sap-on-powervs.svg",
+										"sha": "b9213201e6099c0237d83c0cc0d6931dfb5341b8be9b7692f1f0eaf0e9a089d5"
+									},
+									"caption": "Baby SLZ variation",
+									"type": "image/svg+xml"
+								},
+								"description": "A stack representation in a project"
+							}
+						]
+					},
+					"configuration": [
+						{
+							"key": "ssh_private_key",
+							"type": "password",
+							"display_name": "Multiline secure value",
+							"required": true,
+							"custom_config": {
+								"type": "multiline_secure_value",
+								"grouping": "deployment",
+								"original_grouping": "deployment"
+							}
+						},
+						{
+							"key": "prefix",
+							"type": "string",
+							"default_value": "stackDemo",
+							"required": true
+						},
+						{
+							"key": "ssh_key",
+							"type": "string",
+							"default_value": "__NOT_SET__",
+							"required": true
+						}
+					],
+					"install_type": "fullstack"
+				}
+			]
+		}
+	]
+}
