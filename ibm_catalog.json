@@ -55,9 +55,9 @@
 								"diagram": {
 									"url_proxy": {
 										"url": "https://github.com/RnD-sandbox/stack-demo/blob/main/architecture/catalog-logo-sap-on-powervs.svg",
-										"sha": "b9213201e6099c0237d83c0cc0d6931dfb5341b8be9b7692f1f0eaf0e9a089d5"
+										"sha": "d1c24424d7d5b68fbb2f7a4f2d5c1192c60fc4b4"
 									},
-									"caption": "Baby SLZ variation",
+									"caption": "PowerVS for SAP HANA",
 									"type": "image/svg+xml"
 								},
 								"description": "A stack representation in a project"
