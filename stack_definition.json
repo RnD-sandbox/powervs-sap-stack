@@ -139,7 +139,7 @@
 				},
                 {
 					"name": "powervs_netweaver_instance_count",
-					"value": 1
+					"value": "1"
 				},
 				{
 					"name": "powervs_netweaver_instance_name",
@@ -147,11 +147,11 @@
 				},
                 {
 					"name": "powervs_netweaver_cpu_number",
-					"value": 3
+					"value": "3"
 				},
 				{
 					"name": "powervs_netweaver_memory_size",
-					"value": 32
+					"value": "32"
 				},
 				{
 					"name": "sap_domain",
