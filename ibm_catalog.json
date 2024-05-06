@@ -65,7 +65,37 @@
 						]
 					},
 					"configuration": [
-						{
+                        {
+							"key": "powervs_zone",
+							"type": "string",
+							"required": true
+						},
+                        {
+							"key": "powervs_resource_group_name",
+							"type": "string",
+							"required": true
+						},
+                        {
+							"key": "power_infrastructure_prefix",
+							"type": "string",
+							"required": true
+						},
+                        {
+							"key": "sap_system_prefix",
+							"type": "string",
+							"required": true
+						},
+                        {
+							"key": "external_access_ip",
+							"type": "string",
+							"required": true
+						},
+                        {
+							"key": "ssh_public_key",
+							"type": "string",
+							"required": true
+						},
+                        {
 							"key": "ssh_private_key",
 							"type": "password",
 							"display_name": "Multiline secure value",
@@ -76,16 +106,39 @@
 								"original_grouping": "deployment"
 							}
 						},
-						{
-							"key": "prefix",
+                        {
+							"key": "landing_zone_configuration",
 							"type": "string",
-							"default_value": "stackDemo",
 							"required": true
 						},
-						{
-							"key": "ssh_key",
+                        {
+							"key": "powervs_image_names",
 							"type": "string",
-							"default_value": "__NOT_SET__",
+							"required": true
+						},
+                        {
+							"key": "powervs_sap_network_cidr",
+							"type": "string",
+							"required": true
+						},
+                        {
+							"key": "os_image_distro",
+							"type": "string",
+							"required": true
+						},
+                        {
+							"key": "powervs_create_separate_sharefs_instance",
+							"type": "boolean",
+							"required": true
+						},
+                        {
+							"key": "powervs_hana_instance_name",
+							"type": "string",
+							"required": true
+						},
+                        {
+							"key": "powervs_hana_instance_sap_profile_id",
+							"type": "string",
 							"required": true
 						}
 					],
