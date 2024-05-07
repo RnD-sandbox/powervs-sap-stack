@@ -3,7 +3,7 @@
 		{
 			"label": "fullstack powervs sap",
 			"name": "fullstack-powervs-sap",
-			"version": "0.1.2",
+			"version": "0.1.3",
 			"product_kind": "solution",
 			"tags": [
 				"virtualservers",
