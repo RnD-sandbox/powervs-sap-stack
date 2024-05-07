@@ -6,14 +6,14 @@
 			"version": "0.1.2",
 			"product_kind": "solution",
 			"tags": [
-                "virtualservers",
-                "ibm_created",
-                "target_terraform",
-                "terraform",
-                "reference_architecture",
-                "solution",
-                "support_ibm"
-            ],
+				"virtualservers",
+				"ibm_created",
+				"target_terraform",
+				"terraform",
+				"reference_architecture",
+				"solution",
+				"support_ibm"
+			],
 			"offering_icon_url": "https://globalcatalog.test.cloud.ibm.com/api/v1/1082e7d2-5e2f-0a11-a3bc-f88a8e1931fc/artifacts/solution.svg",
 			"flavors": [
 				{
@@ -53,7 +53,7 @@
 						"diagrams": [
 							{
 								"diagram": {
-                                    "url": "https://raw.githubusercontent.com/terraform-ibm-modules/terraform-ibm-powervs-sap/main/reference-architectures/sap-ready-to-go/deploy-arch-ibm-pvs-sap-ready-to-go.svg",
+									"url": "https://raw.githubusercontent.com/terraform-ibm-modules/terraform-ibm-powervs-sap/main/reference-architectures/sap-ready-to-go/deploy-arch-ibm-pvs-sap-ready-to-go.svg",
 									"caption": "Full SAP environment provisioned on a 'Power Virtual Server with VPC landing zone'",
 									"type": "image/svg+xml"
 								},
@@ -62,37 +62,37 @@
 						]
 					},
 					"configuration": [
-                        {
+						{
 							"key": "powervs_zone",
 							"type": "string",
 							"required": true
 						},
-                        {
+						{
 							"key": "powervs_resource_group_name",
 							"type": "string",
 							"required": true
 						},
-                        {
+						{
 							"key": "power_infrastructure_prefix",
 							"type": "string",
 							"required": true
 						},
-                        {
+						{
 							"key": "sap_system_prefix",
 							"type": "string",
 							"required": true
 						},
-                        {
+						{
 							"key": "external_access_ip",
 							"type": "string",
 							"required": true
 						},
-                        {
+						{
 							"key": "ssh_public_key",
 							"type": "string",
 							"required": true
 						},
-                        {
+						{
 							"key": "ssh_private_key",
 							"type": "password",
 							"display_name": "Multiline secure value",
@@ -103,37 +103,37 @@
 								"original_grouping": "deployment"
 							}
 						},
-                        {
+						{
 							"key": "landing_zone_configuration",
 							"type": "string",
 							"required": true
 						},
-                        {
+						{
 							"key": "powervs_image_names",
 							"type": "string",
 							"required": true
 						},
-                        {
+						{
 							"key": "powervs_sap_network_cidr",
 							"type": "string",
 							"required": true
 						},
-                        {
+						{
 							"key": "os_image_distro",
 							"type": "string",
 							"required": true
 						},
-                        {
+						{
 							"key": "powervs_create_separate_sharefs_instance",
 							"type": "boolean",
 							"required": true
 						},
-                        {
+						{
 							"key": "powervs_hana_instance_name",
 							"type": "string",
 							"required": true
 						},
-                        {
+						{
 							"key": "powervs_hana_instance_sap_profile_id",
 							"type": "string",
 							"required": true
