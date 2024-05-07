@@ -11,7 +11,7 @@
 			"required": true,
 			"type": "string",
 			"hidden": false,
-			"default": "__NOT_SET__",
+			"default": "",
 			"custom_config": {}
 		},
 		{
@@ -19,7 +19,7 @@
 			"required": true,
 			"type": "string",
 			"hidden": false,
-			"default": "stackDemo",
+			"default": "idemo",
 			"custom_config": {}
 		},
         {
@@ -27,7 +27,7 @@
 			"required": true,
 			"type": "string",
 			"hidden": false,
-			"default": "stackDemo",
+			"default": "sDemo",
 			"custom_config": {}
 		},
         {
@@ -35,7 +35,7 @@
 			"required": true,
 			"type": "string",
 			"hidden": false,
-			"default": "__NOT_SET__",
+			"default": "0.0.0.0/0",
 			"custom_config": {}
 		},
         {
