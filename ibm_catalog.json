@@ -53,8 +53,8 @@
 						"diagrams": [
 							{
 								"diagram": {
-                                    "url": "https://github.com/RnD-sandbox/stack-demo/blob/main/architecture/catalog-logo-sap-on-powervs.svg",
-									"caption": "PowerVS for SAP HANA",
+                                    "url": "https://raw.githubusercontent.com/terraform-ibm-modules/terraform-ibm-powervs-sap/main/reference-architectures/sap-ready-to-go/deploy-arch-ibm-pvs-sap-ready-to-go.svg",
+									"caption": "Full SAP environment provisioned on a 'Power Virtual Server with VPC landing zone'",
 									"type": "image/svg+xml"
 								},
 								"description": "A stack representation in a project"
