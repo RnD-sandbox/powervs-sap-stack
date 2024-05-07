@@ -1,8 +1,8 @@
 {
 	"products": [
 		{
-			"label": "fullstack powervs sap",
-			"name": "fullstack-powervs-sap",
+			"label": "powervs-sap-stack",
+			"name": "powervs-sap-stack",
 			"version": "0.0.1",
 			"product_kind": "solution",
 			"tags": [
