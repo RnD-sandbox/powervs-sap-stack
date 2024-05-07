@@ -3,7 +3,7 @@
 		{
 			"label": "powervs-sap-stack",
 			"name": "powervs-sap-stack",
-			"version": "0.0.1",
+			"version": "0.1.1",
 			"product_kind": "solution",
 			"tags": [
                 "virtualservers",
